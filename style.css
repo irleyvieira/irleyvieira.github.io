@@ -248,3 +248,10 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
+.projetos-box > img{
+    width: 330px;
+    height: 220px;
+    width: 100%;
+    
+}
