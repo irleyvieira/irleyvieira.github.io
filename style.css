@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
@@ -114,7 +115,7 @@ header nav ul li a {
   height: 270px;
 }
 
-'
+
 
 
 /* TOPO DO SITE */
@@ -230,19 +231,14 @@ h3 {
 }
 
 .projetos-box>img:hover {
-  transform: scale(1.08);
-  box-shadow: 0px 0px 10px white;
+  transform: scale(1.05);
+ 
 }
 
 @media (min-width: 280px) and (max-width: 450px) {
   body {
     margin: auto;
     text-align: center;
-  }
-
-  .especialidades .especialidades-box:hover {
-    transform: none;
-    box-shadow: none;
   }
 
   img {
@@ -271,7 +267,7 @@ h3 {
 }
 
 
-@media (max-width: 836px) {
+@media (max-width: 930px) {
 
   .flex {
     flex-direction: column-reverse;
@@ -309,9 +305,6 @@ h1 {
   text-align: center;
 }
 
-p {
-  text-align: justify;
-}
 
 
 /* projetos */
