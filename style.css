@@ -48,7 +48,7 @@ h2>span {
 .flex {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center
 }
 
 header>.interface {
@@ -172,7 +172,7 @@ p,
 i {
   font-size: 13px;
   color: white;
-  text-align: center;
+  text-align: justify;
 
 }
 
