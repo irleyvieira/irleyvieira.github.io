@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
@@ -48,7 +49,7 @@ h2>span {
 .flex {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 
 header>.interface {
@@ -114,7 +115,7 @@ header nav ul li a {
   height: 270px;
 }
 
-'
+
 
 
 /* TOPO DO SITE */
@@ -129,6 +130,7 @@ section.top-do-site.flex {
 }
 
 .txt-topodosite>h1 {
+    padding: 20px;
   color: white;
   font-weight: bold;
 }
@@ -140,6 +142,10 @@ section.top-do-site.flex {
 
 .txt-topodosite>p {
   color: white;
+}
+
+p{
+    margin-left: 30%;
 }
 
 .img-topodosite>img {
@@ -172,7 +178,7 @@ p,
 i {
   font-size: 13px;
   color: white;
-  text-align: center;
+  text-align: justify;
 
 }
 
@@ -193,7 +199,7 @@ h3 {
 
 .especialidades .especialidades-box:hover {
   transform: scale(1.04);
-
+  box-shadow: 0px 0px 8px white;
 
 }
 
@@ -230,7 +236,8 @@ h3 {
 }
 
 .projetos-box>img:hover {
-
+  transform: scale(1.05);
+ 
 }
 
 @media (min-width: 280px) and (max-width: 450px) {
@@ -247,7 +254,7 @@ h3 {
     display: none;
   }
 
-  .logo {
+  .logo img{
     display: none;
     align-items: center;
     justify-content: center;
@@ -266,6 +273,8 @@ h3 {
 
 
 @media (max-width: 930px) {
+
+    
 
   .flex {
     flex-direction: column-reverse;
@@ -288,12 +297,7 @@ h3 {
   }
 
   p {
-    text-align: center;
-  }
-  .logo img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: justify;
   }
 }
 
