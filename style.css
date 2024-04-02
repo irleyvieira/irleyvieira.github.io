@@ -172,7 +172,7 @@ p,
 i {
   font-size: 13px;
   color: white;
-  text-align: justify;
+  text-align: center;
 
 }
 
@@ -294,7 +294,7 @@ h3 {
   }
 
   p {
-    text-align: justify;
+    text-align: center;
   }
 }
 
@@ -310,7 +310,7 @@ h1 {
 }
 
 p {
-  text-align: justify;
+  text-align: center;
 }
 }
 
