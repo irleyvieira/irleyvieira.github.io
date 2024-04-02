@@ -235,7 +235,7 @@ h3 {
  
 }
 
-@media (min-width: 280px) and (max-width: 450px) {
+@media (min-width: 280px) and (max-width: 495px) {
   body {
     margin: auto;
     text-align: center;
@@ -248,6 +248,9 @@ h3 {
   .projetos-box>img:hover {
     display: none;
   }
+
+  hover{
+    display: none;}
 
   .logo {
     display: none;
