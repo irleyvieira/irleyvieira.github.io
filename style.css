@@ -172,7 +172,7 @@ p,
 i {
   font-size: 13px;
   color: white;
-  text-align: center;
+  text-align: justify;
 
 }
 
@@ -294,7 +294,7 @@ h3 {
   }
 
   p {
-    text-align: center;
+    text-align: justify;
   }
 }
 
@@ -310,9 +310,9 @@ h1 {
 }
 
 p {
-  text-align: center;
+  text-align: justify;
 }
-}
+
 
 /* projetos */
 
